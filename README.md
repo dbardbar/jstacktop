@@ -13,8 +13,9 @@ Usage: fstool jstacktop [pid] -s
 
 
 # Example:
-
+``
 [root@db]# **jstacktop 24348**
+
 2018-12-24 11:06:53
 Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.181-b13 mixed mode):
 
@@ -27,4 +28,7 @@ JNI global references: 2439
         at java.lang.Object.wait(Object.java:502)
         at java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)
         [... output cropped ...]
+``
 
+# Credit
+Written mainly by Avi Maslati. Thanks Avi!
