@@ -13,22 +13,22 @@ Usage: fstool jstacktop [pid] -s
 
 
 # Example:
-```
-[root@db]# **jstacktop 24348**
+<pre>
+[root@db]# <b>jstacktop 24348</b>
 
 2018-12-24 11:06:53
 Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.181-b13 mixed mode):
 
 JNI global references: 2439
 
-"main" #1 prio=5 os_prio=0 tid=0x00007fc06c01e800 nid=0x5f2a in Object.wait() [0x00007fc075a8f000] **%CPU 0**
+"main" #1 prio=5 os_prio=0 tid=0x00007fc06c01e800 nid=0x5f2a in Object.wait() [0x00007fc075a8f000] <b>%CPU 0</b>
     java.lang.Thread.State: WAITING (on object monitor)
         at java.lang.Object.wait(Native Method)
         - waiting on <0x000000078557dfc0> (a java.lang.UNIXProcess)
         at java.lang.Object.wait(Object.java:502)
         at java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)
         [... output cropped ...]
-```
+</pre>
 
 # Credit
 Written mainly by Avi Maslati. Thanks Avi!
