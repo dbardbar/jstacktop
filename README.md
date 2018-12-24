@@ -31,4 +31,4 @@ JNI global references: 2439
 </pre>
 
 # Credit
-Written mainly by Avi Maslati. Thanks Avi!
+Written mainly by @avimas. Thanks Avi!
