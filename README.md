@@ -5,7 +5,7 @@ Java's jstack utility displays great information per thread including thread nam
 
 Linux's top shows CPU usage per thread, but obviosuly is unaware of Java-specific info.
 
-jstacktop comes to bridge this gap. It runs jstacktop and calculated CPU usage per thread based on /proc. It then outputs something very similar to jstack output, but with CPU% per thread.
+jstacktop comes to bridge this gap. It runs jstack and calculated CPU usage per thread based on /proc. It then outputs something very similar to jstack output, but with CPU% per thread.
 
 # Usage:
 Usage: fstool jstacktop [pid] -s
